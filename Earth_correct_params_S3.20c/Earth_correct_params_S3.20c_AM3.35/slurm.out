@@ -1,0 +1,28 @@
+HERCULES is running
+Intialising 
+	 Reading input file 
+	 Run name: Earth_correct_params_S3.20c_L3.35_N100_Nm1000_k6_f121_p10_l1_0_1.5
+	 Input file read successful
+	 Initialisation by reading start file ../../Earth_correct_params_S3.20c/Earth_correct_params_S3.20c_AM3.3/Output/Earth_correct_params_S3.20c_L3.3_N100_Nm1000_k6_f121_p10_l1_0_1.5_final
+	 Initialisation complete
+Itterating
+	 Main Itteration # 	 convergence 	 a 	 aspect 	 ellipticity 	 l 	 omega_rot 	 Mass error 	 AM error 
+		 Mass/AM Itteration # 	 convergence 	 p_core 	 a 	 omega_rot 	 edge corot 	 AM error 
+	 	 	1	1	2.54563e+11	9.77074e+06	0.000755219	0	1.55991e-16
+	 	 	2	0.015779	2.50609e+11	9.78658e+06	0.000753858	1	-1.87189e-15
+	 	 	3	0.00783684	2.4866e+11	9.79974e+06	0.00074996	1	-2.18388e-15
+	 	 	4	0.00176294	2.49099e+11	9.79478e+06	0.000750748	0	1.55991e-16
+	 	 	5	0.000421165	2.49204e+11	9.79419e+06	0.000750872	0	1.55991e-15
+	 	 	6	0.000139077	2.49239e+11	9.79419e+06	0.000750883	0	-1.55991e-16
+	 	 	7	4.50933e-05	2.4925e+11	9.79421e+06	0.000750882	0	-2.65185e-15
+	 	 	8	1.24855e-05	2.49253e+11	9.79421e+06	0.000750882	0	-1.09194e-15
+	 	 	9	2.87418e-06	2.49254e+11	9.79421e+06	0.000750881	0	1.09194e-15
+	 	 	10	5.57048e-07	2.49254e+11	9.79421e+06	0.000750881	0	-9.35947e-16
+	 	 	11	9.24908e-08	2.49254e+11	9.79421e+06	0.000750881	0	-3.11982e-16
+	 	 	12	1.33832e-08	2.49254e+11	9.79421e+06	0.000750881	0	1.55991e-16
+	 	 	13	1.72806e-09	2.49254e+11	9.79421e+06	0.000750881	0	-1.40392e-15
+	 1	0.00152719	9.79421e+06	0.428946	0.90333	2.10593	0.000750881	1.79787e-16	-1.40392e-15
+		 Mass/AM Itteration # 	 convergence 	 p_core 	 a 	 omega_rot 	 edge corot 	 AM error 
+	 	 	1	1	2.47482e+11	-nan	-nan	0	-nan
+	 	 	2	nan	-nan	-nan	-nan	0	-nan
+	 2	nan	-nan	0.422215	0.906496	2.147	-nan	-nan	-nan

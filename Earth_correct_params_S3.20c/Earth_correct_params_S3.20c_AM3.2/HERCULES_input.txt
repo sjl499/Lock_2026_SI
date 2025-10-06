@@ -1,0 +1,34 @@
+//SJL 10/15
+//Input file for HERCULES
+//Before each block of inputs require a pound operator to let program know to read. The read in is order sensitive. All units base SI.
+
+//Set run properties
+################################
+	run_name = Earth_correct_params_S3.20c	\\Name trunk to identify output files 
+      	nint_max = 200	  	\\Maximum number of itterations
+	toll = 1E-8	  	\\Tollerance for stopping of the itteration
+	xi_nint_max = 200	\\Maximum number of itterations for xi
+	xi_toll = 1E-10		\\Tollerance for xi itteration
+	dxi = 1E-2		\\Change in xi for calculating dQdxi
+      	flag_start = 1	  	\\Start flag (0=spheroids, 1=restart file)
+      	start_file = ../../Earth_correct_params_S3.20c/Earth_correct_params_S3.20c_AM3.0/Output/Earth_correct_params_S3.20c_L3_N100_Nm1000_k6_f121_p10_l1_0_1.5_final	\\Name of start file (flag_start=1)
+      	flag_Mconc = 2	  	\\Mass conservation flag (0=constant density, 1=density scaling, 2=radius scaling)
+	flag_Lconc = 1	  	\\AM conservation flag (0=constant omega, 1=conserve)
+	omega_param = { 1.0, 0.0, 1.5 } 	\\Params for omega profile (for flag_Lconc=1)
+      	flag_iter_print = 0 	\\Flag to print each itteration (0=no, 1=yes)
+
+//Set properties of planet 
+#################################
+	aspect = 0.9		\\Initial aspect ratio (for flag_start=0)
+	Nlayers = 100		\\Number of layers in model
+	Nmaterial = 2		\\Number of materials in model
+	Nmaterial_lay = { 80, 20 }	\\Number of layers for each material (outside in). Need space between brackets and numbers to read.
+	Nmaterial_amax = { 2.3E7, 4.0E6 }		\\Initial max equatorial radius for layers (outside in) (for flag_start=0)
+	material_files = { ../../../EOS/HERCULES_EOS_forsterite_S3.20c_log.txt , ../../../EOS/HERCULES_EOS_Fe_S1.50c_lin.txt }   \\Names of the EOS files to read for each material. Need space either side of file name.
+	Mass = { 4.0432471e+24, 1.9290529e+24 }	\\Mass of each of the materials
+	ref_rho = 1.0E3	 	\\Reference density for flag_Mconc=0
+	kmax = 6      		\\Maximum degree to consider
+     	Nmu = 1000	      	\\Number of angular points to calculate
+	omega_rot = 0.0E-04     \\Rotation rate (for flag_Lconc=0)
+	Ltot = 1.1296e+35	      	\\Total angular momentum of body (for flag_Lconc=1) 2.2945E34
+	pmin = 1.0E6	      	\\Outer layer pressure

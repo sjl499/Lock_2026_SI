@@ -1,0 +1,14 @@
+HERCULES is running
+Intialising 
+	 Reading input file 
+	 Run name: Earth_correct_params_S3.20c_L3.5_N100_Nm1000_k6_f121_p10_l1_0_1.5
+	 Input file read successful
+	 Initialisation by reading start file ../../Earth_correct_params_S3.20c/Earth_correct_params_S3.20c_AM3.3/Output/Earth_correct_params_S3.20c_L3.3_N100_Nm1000_k6_f121_p10_l1_0_1.5_final
+	 Initialisation complete
+Itterating
+	 Main Itteration # 	 convergence 	 a 	 aspect 	 ellipticity 	 l 	 omega_rot 	 Mass error 	 AM error 
+		 Mass/AM Itteration # 	 convergence 	 p_core 	 a 	 omega_rot 	 edge corot 	 AM error 
+	 	 	1	1	2.54563e+11	9.77074e+06	0.000789035	0	-7.4653e-16
+	 	 	2	0.0678479	2.38389e+11	-nan	-nan	0	-nan
+	 	 	3	nan	-nan	-nan	-nan	0	-nan
+	 1	nan	-nan	0.428946	0.90333	2.10593	-nan	-nan	-nan
