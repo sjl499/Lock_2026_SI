@@ -1,7 +1,8 @@
 ##### Manual additions
 *.DS_Store
-Data_repo/Cuk_et_al_2021_high_obliquity
-Data_repo/Rufu&Canup_2020_quasi_resonance
+Data/Cuk_et_al_2021_high_obliquity/*.h5
+Data/Cuk_et_al_2021_high_obliquity/*recalc*
+Data/Rufu&Canup_2020_quasi_resonance/*recalc*
 plot_example_tidal_evolution_2Dmap_canonical.ipynb
 test_RC20.bin
 Movie_slides

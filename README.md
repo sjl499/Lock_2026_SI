@@ -4,15 +4,15 @@ Supporting information for Lock 2026: Tectonics on early Earth driven by Earthâ€
 Hello, and thank you for accessing this repository. With it, you can reproduce the calculations, figures, and movies presented in the Lock 2026. The  Below are details of the contents of the repository. With any luck, you should be able to clone this repository and run it on your own computer. If you have any issues, please contact the author at s.lock@bristol.ac.uk
 
 Requirements:
-You will need an installation of python (including the packages given in the environment.yml file) and jupyter notebooks. For some figures you will also need to download an additional data repository (see below).
+You will need an installation of python (including the packages given in the environment.yml file) and jupyter notebooks. For some figures you will also need to download an additional data repository from XXXX. By default this assumed to be one file level up from the scripts in this repo, but this can be changed in the parameters cell of the relevant scripts. 
 
 Contents:
 
-Data
-Directory containing python data binary files used in some plotting scripts. These files can be reproduced from the plotting scripts, but are provided here for ease of reproducing the figures.
+calculate_change_in_lenth_data_*.ipynb
+Notebooks used to calculate data presented in Lock (2016) that is not authorwise contained in the othere plotting scipts. By default these scripts will make duplicates of some of the data in the Data directory or additional data repo (see above) in the relevant sub-directories of the Data directory with files indicated by *recalc*. 
 
-.Data_repo
-Note, this directory is not included automatically in this repository. To make some figures, you need to download this additional data repository from XXXXX and place it here.
+Data
+Directory containing python data binary files, hd5 files, and orbital evolution calculation output from previous works used in some plotting scripts. These files can be reproduced from the plotting scripts, or from the balculate* scripys, but are provided here for ease of reproducing the figures.
 
 Earth_correct_params_S3.20c
 This directory contains the output from the HERCULES planetary structure code used in many of the calculations of Lock 2026, which describe the structure of Earth at different angular momenta. Each sub-directory includes the input file for HERCULES and the associated output file which is in a custom binary format. A python structure for reading in such output is provided in the Supporting_scripts directory, but for more information the user is referred to the documentation of the HERCULES code at: https://github.com/sjl499/HERCULESv1_user
