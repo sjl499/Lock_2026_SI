@@ -2,7 +2,6 @@ name: Lock_2020_SI_min
 channels:
   - conda-forge
   - defaults
-channel_priority: strict
 
 dependencies:
   - python=3.11.5
