@@ -1,0 +1,13 @@
+name: Lock_2020_SI_min
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11.5
+  - numpy=1.26.4
+  - scipy=1.11.4
+  - matplotlib=3.8.0
+  - hdf5=1.12.1
+  - h5py=3.9.0
+  - svglib=1.6.0
